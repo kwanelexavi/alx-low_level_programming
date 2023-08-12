@@ -11,6 +11,7 @@ int main(void)
 	for (i = '0'; i <= '9'; i++)
 	{
 		int j = '0';
+
 		for (j = '0'; j <= '9'; j++)
 		{
 			if (!((i == j) || (j > i)))
