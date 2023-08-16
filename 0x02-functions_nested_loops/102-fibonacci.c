@@ -9,7 +9,7 @@
 int main(void)
 {
 	int i;
-	unsigned long int fib1 = 0, fib2 = 1, next;
+	unsigned long int fib1 = 1, fib2 = 2, next;
 
 	printf("%lu", fib1);
 	for (i = 0; i < 50; i++)
@@ -22,9 +22,7 @@ int main(void)
 		{
 			printf(", ");
 		}
-		
 	}
-        printf("\n");
+	printf("\n");
 	return (0);
 }
-
